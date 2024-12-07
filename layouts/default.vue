@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <NuxtLoadingIndicator />
-    <div class="h-screen">
+    <div class="h-screen relative">
       <div
         v-if="$vuetify.display.lgAndUp"
         class="relative main d-flex w-100 h-100"
@@ -104,6 +104,9 @@
           </div>
         </div>
       </div>
+      <footer style="position: absolute; bottom: 20px" class="w-100">
+        <p class="footer">© 2024 by ATHOMES</p>
+      </footer>
     </div>
   </v-app>
 </template>
@@ -142,5 +145,13 @@ html {
   font-family: "QwitcherGrypen";
   font-size: 50px;
   color: #221e1f;
+}
+
+.footer {
+  font-family: "Poppins-Light";
+  font-size: 14px;
+  color: #221e1f;
+  font-weight: lighter;
+  text-align: center;
 }
 </style>
