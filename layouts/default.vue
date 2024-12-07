@@ -27,8 +27,11 @@
           style="height: 100vh; width: 60%"
           class="d-flex flex-column justify-center"
         >
-          <div style="height: 10%"></div>
-          <div class="d-flex flex-row align-center ga-4">
+          <div style="height: 8%"></div>
+          <div
+            style="max-width: max-content"
+            class="d-flex flex-row align-center ga-4"
+          >
             <img
               src="~/assets/images/athomes.png"
               :width="64"
@@ -37,30 +40,32 @@
             />
             <h1 class="header">ATHOMES</h1>
           </div>
-          <div style="width: 350px" class="subheader d-flex flex-column">
-            <p class="px-4">a place where you truly</p>
-            <p class="text-center">feel at home!</p>
-          </div>
           <div
-            style="width: 350px"
-            class="d-flex flex-column align-center justify-center mt-10"
+            style="max-width: 380px"
+            class="subheader d-flex flex-column w-100 align-center justify-center"
           >
-            <p class="coming">Coming soon</p>
-            <div class="d-flex flex-row align-center justify-center ga-4 mt-4">
-              <img
-                class="cursor-pointer"
-                src="~/assets/images/circum_facebook.png"
-                :width="30"
-                :height="30"
-                @click="onClick('https://www.fb.com/athomescdorecruitement')"
-              />
-              <img
-                class="cursor-pointer"
-                src="~/assets/images/circum_linkedin.png"
-                :width="30"
-                :height="30"
-                @click="onClick('linkedin.com')"
-              />
+            <p>a place where you truly</p>
+            <p>feel at home!</p>
+            <div class="d-flex flex-column align-center justify-center mt-10">
+              <p class="coming">Coming soon</p>
+              <div
+                class="d-flex flex-row align-center justify-center ga-4 mt-4"
+              >
+                <img
+                  class="cursor-pointer"
+                  src="~/assets/images/circum_facebook.png"
+                  :width="30"
+                  :height="30"
+                  @click="onClick('https://www.fb.com/athomescdorecruitement')"
+                />
+                <img
+                  class="cursor-pointer"
+                  src="~/assets/images/circum_linkedin.png"
+                  :width="30"
+                  :height="30"
+                  @click="onClick('linkedin.com')"
+                />
+              </div>
             </div>
           </div>
         </div>
