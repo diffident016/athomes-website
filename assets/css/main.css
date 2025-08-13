@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --primary: #0f298b;
+}
+
+html {
+  background-color: #fafafa;
+}
+
+@font-face {
+  font-family: "QwitcherGrypen";
+  src: url("fonts/QwitcherGrypen-Regular.ttf") format("truetype"),
+    url("QwitcherGrypen-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins-Regular.ttf") format("truetype"),
+    url("fonts/Poppins-Italic.ttf") format("truetype"),
+    url("fonts/Poppins-Bold.ttf") format("truetype"),
+    url("fonts/Poppins-BoldItalic.ttf") format("truetype"),
+    url("fonts/Poppins-Medium.ttf") format("truetype"),
+    url("fonts/Poppins-MediumItalic.ttf") format("truetype"),
+    url("fonts/Poppins-Light.ttf") format("truetype"),
+    url("fonts/Poppins-LightItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("fonts/Poppins-Light.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal;
+}
