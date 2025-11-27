@@ -27,11 +27,11 @@
           </p>
           <div class="flex flex-col text-sm gap-1">
             <p class="font-medium flex flex-row items-center gap-1">
-              <Icon size="14" name="lucide:phone" /> +63 912 345 6789
+              <Icon size="14" name="lucide:phone" /> +63 915 727 4212
             </p>
-            <p class="font-medium flex flex-row items-center gap-1">
+            <!-- <p class="font-medium flex flex-row items-center gap-1">
               <Icon size="14" name="lucide:phone" /> +63 912 345 6789
-            </p>
+            </p> -->
           </div>
           <div class="flex flex-col text-sm gap-1 w-full">
             <p class="font-bold flex flex-row items-center gap-2">
